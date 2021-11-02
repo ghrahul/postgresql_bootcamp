@@ -93,6 +93,13 @@ do
 		update_date=now();
 
 
+select * from demo_sorting order by num nulls last;
+
+-- if you use a column aliases in select clause then you
+-- cannot use column aliases inside where clause
+-- concat function takes care of null
+
+
 
 
 
